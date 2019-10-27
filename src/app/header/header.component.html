@@ -1,0 +1,11 @@
+<div class="header">
+    <a href="#" class="logo-container">
+        <img src="../../assets/crown.svg" class="logo">
+    </a>
+    <div class="options">
+        <a href="#" class="option"> SHOP </a>
+        <a href="#" class="option"> CONTACT </a>
+        <div class="option" *ngIf="isAuthenticated" (click)="onSignOut()" > SIGN OUT </div>
+        <a href="/auth" class="option" *ngIf="!isAuthenticated" > SIGN IN </a>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="sign-in">
+  <h2>I already have an account</h2>
+  <span>Sign in with your email and password</span>
+    <app-form-input [type]="'email'" [label]="'email'" [name]="'email'" (onInput)="handleInput($event)" ></app-form-input>
+    <app-form-input [type]="'password'" [label]="'Password'" [name]="'password'" (onInput)="handleInput($event)" ></app-form-input>
+    <div class="buttons">
+      <app-custom-button> Sign In </app-custom-button>
+      <app-custom-button [isGoogle]="'isGoogle'" (onClick)="googleSignIn()" > Sign In with Google </app-custom-button>
+    </div>
+</div>
