@@ -10,6 +10,8 @@ import { CustomButtonComponent } from './custom-button/custom-button.component';
 import { FormInputComponent } from './form-input/form-input.component';
 import { AuthPageComponent } from './auth-page/auth-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MenuItemComponent } from './menu-item/menu-item.component';
+import { DirectoryComponent } from './directory/directory.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     SignUpComponent,
     CustomButtonComponent,
     FormInputComponent,
-    AuthPageComponent
+    AuthPageComponent,
+    MenuItemComponent,
+    DirectoryComponent
   ],
   imports: [
     BrowserModule,
