@@ -1,0 +1,6 @@
+<div className="collection-preview">
+    <h1 className="title"> {{collectionPreview.title}} </h1>
+    <div className="preview">
+        <app-collection-item *ngFor="let item of collectionPreview.items" [item]="item" ></app-collection-item>
+    </div>
+</div>

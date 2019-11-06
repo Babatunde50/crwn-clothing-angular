@@ -12,6 +12,11 @@ import { AuthPageComponent } from './auth-page/auth-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MenuItemComponent } from './menu-item/menu-item.component';
 import { DirectoryComponent } from './directory/directory.component';
+import { CollectionPreviewComponent } from './collection-preview/collection-preview.component';
+import { CollectionItemComponent } from './collection-item/collection-item.component';
+import { ShopPageComponent } from './shop-page/shop-page.component';
+import { CollectionOverviewComponent } from './collection-overview/collection-overview.component';
+import { CollectionPageComponent } from './collection-page/collection-page.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,12 @@ import { DirectoryComponent } from './directory/directory.component';
     FormInputComponent,
     AuthPageComponent,
     MenuItemComponent,
-    DirectoryComponent
+    DirectoryComponent,
+    CollectionPreviewComponent,
+    CollectionItemComponent,
+    ShopPageComponent,
+    CollectionOverviewComponent,
+    CollectionPageComponent
   ],
   imports: [
     BrowserModule,

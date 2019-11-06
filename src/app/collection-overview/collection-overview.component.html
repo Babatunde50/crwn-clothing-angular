@@ -1,0 +1,6 @@
+<div className="collections-overview">
+    <!-- {collections.map(({ id, ...otherCollectionProps }) => {
+        return <CollectionPreview key={id} {...otherCollectionProps} />;
+      })} -->
+      <app-collection-preview *ngFor="let collection of collectionsPreview" [collectionPreview]="collection" ></app-collection-preview>
+</div>
